@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><style>body {
+        background-color: black;
+        color: whitesmoke;
+        margin: 0;
+      }
+
+      #flexcontainer {
+        display: flex;
+        flex-direction: row;
+      }
+
+      #next {
+        margin-top: 8px;
+      }</style><title>Cellular Automata</title></head><body><div id="flexcontainer"><canvas id="app"></canvas><div><button id="next">Next</button><fieldset><legend>State:</legend><div><input type="radio" id="dead" value="dead" name="state"/> <label for="dead">Dead</label></div><div><input type="radio" id="alive" value="alive" name="state" checked="checked"/> <label for="alive">Alive</label></div></fieldset><fieldset><legend>Automata type:</legend><div><input type="radio" id="GoL" value="GoL" name="type" checked="checked"/> <label for="GoL">GoL</label></div><div><input type="radio" id="BB" value="BB" name="type"/> <label for="BB">BB</label></div><div><input type="radio" id="Seeds" value="Seeds" name="type"/> <label for="Seeds">Seeds</label></div></fieldset></div></div><script defer="defer" src="main.js"></script></body></html>
